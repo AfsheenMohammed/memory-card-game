@@ -22,4 +22,13 @@ HTML5 – Structure
 CSS3 – Styling & Animations
 JavaScript (ES6) – Game Logic
 
-Live Demo
+✅Live Demo
+https://afsheenmohammed.github.io/memory-card-game/
+
+📸 Screenshots
+<img width="1920" height="1080" alt="Screenshot (80)" src="https://github.com/user-attachments/assets/92f20b4e-4401-4bb9-a10e-52ae29ca4c5b" />
+<img width="1920" height="1080" alt="Screenshot (79)" src="https://github.com/user-attachments/assets/33fea75f-aef1-411a-9a91-ef2af46ba3b6" />
+<img width="1920" height="1080" alt="Screenshot (81)" src="https://github.com/user-attachments/assets/d2a3043b-930c-4fef-b399-41de8cbd9afd" />
+
+
+
