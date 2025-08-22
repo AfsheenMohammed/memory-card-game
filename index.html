@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memory Card Game</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🃏 Memory Card Game</h1>
+
+  <div class="controls">
+    <label for="level">Choose Level:</label>
+    <select id="level">
+      <option value="easy" selected>Easy (2x2)</option>
+      <option value="medium">Medium (4x4)</option>
+      <option value="hard">Hard (6x6)</option>
+    </select>
+    <button id="restart">🔄 Restart</button>
+    <button id="toggle-theme">🌙 Dark Mode</button>
+  </div>
+
+  <div class="scoreboard">
+    <div>Score: <span id="score">0</span></div>
+    <div>Time: <span id="timer">60</span>s</div>
+    <div>Best: <span id="best-score">0</span></div>
+  </div>
+
+  <div class="game-board">
+    <!-- Cards will be generated dynamically by JS -->
+    <!-- Example of card structure: -->
+    <!--
+    <div class="card" data-emoji="🍎">
+      <div class="card-content">?</div>
+    </div>
+    -->
+  </div>
+
+  <!-- 🎉 Win Message -->
+  <div id="win-message">🎉 You Win! 🎉</div>
+
+  <script src="first.js"></script>
+</body>
+</html>
